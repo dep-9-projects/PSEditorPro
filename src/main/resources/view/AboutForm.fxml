@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorAbout" prefHeight="400.0" prefWidth="320.0" style="-fx-background-color: #5A99FF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutFormController">
+   <children>
+      <ImageView fx:id="imgID" fitHeight="267.0" fitWidth="336.0" layoutX="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/PsTextE%20Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="64.0" layoutY="252.0" text="PS">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="267.0" text="EditorPro">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="193.0" layoutY="301.0" text="v0.1.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="375.0" text="Copyright © 2022  DEP9@ijse">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="303.0" prefHeight="20.0" prefWidth="137.0" text="Product Version">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
