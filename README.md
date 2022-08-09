@@ -1,6 +1,6 @@
 # PS Editor PRO 
 
-![ ](src/asset/PsTextE Icon.png)
+![ ](src/asset/PsTextE_Icon.png)
 
 ### version
 v0.1.0
